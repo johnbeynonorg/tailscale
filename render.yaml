@@ -2,6 +2,7 @@ services:
   - type: pserv
     name: render-subnet-router
     env: docker
+    region: frankfurt
     envVars:
       - key: TAILSCALE_AUTHKEY
         sync: false
